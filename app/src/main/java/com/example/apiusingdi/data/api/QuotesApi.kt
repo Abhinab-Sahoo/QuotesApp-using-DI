@@ -7,5 +7,4 @@ interface QuotesApi {
     @GET("/quotes")
     suspend fun getQuotes(): QuoteResponse
 
-//    if i add a comment here how would i push it to github
 }
